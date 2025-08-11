@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="13" passed="13" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-08-04T11:12:51 IST" name="Suite" finished-at="2025-08-04T11:12:51 IST" duration-ms="110">
+    <groups>
+      <group name="smoke">
+        <method signature="AppCommons.Testcase3(java.lang.String,java.lang.String)[pri:1, instance:com.practise.crm.framework.AppCommons@36bc55de]" name="Testcase3" class="com.practise.crm.framework.AppCommons"/>
+      </group> <!-- smoke -->
+      <group name="Regression">
+        <method signature="AppCommons.Testcase1()[pri:2, instance:com.practise.crm.framework.AppCommons@36bc55de]" name="Testcase1" class="com.practise.crm.framework.AppCommons"/>
+        <method signature="AppCommons.Testcase2()[pri:-1, instance:com.practise.crm.framework.AppCommons@36bc55de]" name="Testcase2" class="com.practise.crm.framework.AppCommons"/>
+        <method signature="AppCommons.Testcase3(java.lang.String,java.lang.String)[pri:1, instance:com.practise.crm.framework.AppCommons@36bc55de]" name="Testcase3" class="com.practise.crm.framework.AppCommons"/>
+      </group> <!-- Regression -->
+      <group name="sanity">
+        <method signature="AppCommons.Testcase2()[pri:-1, instance:com.practise.crm.framework.AppCommons@36bc55de]" name="Testcase2" class="com.practise.crm.framework.AppCommons"/>
+        <method signature="AppCommons.Testcase3(java.lang.String,java.lang.String)[pri:1, instance:com.practise.crm.framework.AppCommons@36bc55de]" name="Testcase3" class="com.practise.crm.framework.AppCommons"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test started-at="2025-08-04T11:12:51 IST" name="Test" finished-at="2025-08-04T11:12:51 IST" duration-ms="110">
+      <class name="com.practise.crm.framework.AppCommons">
+        <test-method is-config="true" signature="startReporting()[pri:0, instance:com.practise.crm.framework.AppCommons@36bc55de]" started-at="2025-08-04T11:12:51 IST" name="startReporting" finished-at="2025-08-04T11:12:51 IST" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReporting -->
+        <test-method is-config="true" signature="launchBrowserApplication(java.lang.String,java.lang.String)[pri:0, instance:com.practise.crm.framework.AppCommons@36bc55de]" started-at="2025-08-04T11:12:51 IST" name="launchBrowserApplication" finished-at="2025-08-04T11:12:51 IST" duration-ms="5" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[www.msisurfaces.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowserApplication -->
+        <test-method signature="Testcase2()[pri:-1, instance:com.practise.crm.framework.AppCommons@36bc55de]" started-at="2025-08-04T11:12:51 IST" name="Testcase2" finished-at="2025-08-04T11:12:51 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Testcase2 -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.practise.crm.framework.AppCommons@36bc55de]" started-at="2025-08-04T11:12:51 IST" name="closeBrowser" finished-at="2025-08-04T11:12:51 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchBrowserApplication(java.lang.String,java.lang.String)[pri:0, instance:com.practise.crm.framework.AppCommons@36bc55de]" started-at="2025-08-04T11:12:51 IST" name="launchBrowserApplication" finished-at="2025-08-04T11:12:51 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[www.msisurfaces.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowserApplication -->
+        <test-method signature="Testcase3(java.lang.String,java.lang.String)[pri:1, instance:com.practise.crm.framework.AppCommons@36bc55de]" started-at="2025-08-04T11:12:51 IST" name="Testcase3" data-provider="testcase3" finished-at="2025-08-04T11:12:51 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Prasad]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Prasad!123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Testcase3 -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.practise.crm.framework.AppCommons@36bc55de]" started-at="2025-08-04T11:12:51 IST" name="closeBrowser" finished-at="2025-08-04T11:12:51 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchBrowserApplication(java.lang.String,java.lang.String)[pri:0, instance:com.practise.crm.framework.AppCommons@36bc55de]" started-at="2025-08-04T11:12:51 IST" name="launchBrowserApplication" finished-at="2025-08-04T11:12:51 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[www.msisurfaces.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowserApplication -->
+        <test-method signature="Testcase3(java.lang.String,java.lang.String)[pri:1, instance:com.practise.crm.framework.AppCommons@36bc55de]" started-at="2025-08-04T11:12:51 IST" name="Testcase3" data-provider="testcase3" finished-at="2025-08-04T11:12:51 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[durga]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[durga@321]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Testcase3 -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.practise.crm.framework.AppCommons@36bc55de]" started-at="2025-08-04T11:12:51 IST" name="closeBrowser" finished-at="2025-08-04T11:12:51 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchBrowserApplication(java.lang.String,java.lang.String)[pri:0, instance:com.practise.crm.framework.AppCommons@36bc55de]" started-at="2025-08-04T11:12:51 IST" name="launchBrowserApplication" finished-at="2025-08-04T11:12:51 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[www.msisurfaces.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowserApplication -->
+        <test-method signature="Testcase1()[pri:2, instance:com.practise.crm.framework.AppCommons@36bc55de]" started-at="2025-08-04T11:12:51 IST" name="Testcase1" finished-at="2025-08-04T11:12:51 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Testcase1 -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.practise.crm.framework.AppCommons@36bc55de]" started-at="2025-08-04T11:12:51 IST" name="closeBrowser" finished-at="2025-08-04T11:12:51 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchBrowserApplication(java.lang.String,java.lang.String)[pri:0, instance:com.practise.crm.framework.AppCommons@36bc55de]" started-at="2025-08-04T11:12:51 IST" name="launchBrowserApplication" finished-at="2025-08-04T11:12:51 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[www.msisurfaces.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowserApplication -->
+        <test-method signature="Testcase1()[pri:2, instance:com.practise.crm.framework.AppCommons@36bc55de]" started-at="2025-08-04T11:12:51 IST" name="Testcase1" finished-at="2025-08-04T11:12:51 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Testcase1 -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.practise.crm.framework.AppCommons@36bc55de]" started-at="2025-08-04T11:12:51 IST" name="closeBrowser" finished-at="2025-08-04T11:12:51 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method signature="Testcase1()[pri:2, instance:com.practise.crm.framework.AppCommons@36bc55de]" started-at="2025-08-04T11:12:51 IST" name="Testcase1" finished-at="2025-08-04T11:12:51 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Testcase1 -->
+        <test-method is-config="true" signature="launchBrowserApplication(java.lang.String,java.lang.String)[pri:0, instance:com.practise.crm.framework.AppCommons@36bc55de]" started-at="2025-08-04T11:12:51 IST" name="launchBrowserApplication" finished-at="2025-08-04T11:12:51 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[www.msisurfaces.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowserApplication -->
+        <test-method is-config="true" signature="launchBrowserApplication(java.lang.String,java.lang.String)[pri:0, instance:com.practise.crm.framework.AppCommons@36bc55de]" started-at="2025-08-04T11:12:51 IST" name="launchBrowserApplication" finished-at="2025-08-04T11:12:51 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[www.msisurfaces.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowserApplication -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.practise.crm.framework.AppCommons@36bc55de]" started-at="2025-08-04T11:12:51 IST" name="closeBrowser" finished-at="2025-08-04T11:12:51 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method signature="Testcase1()[pri:2, instance:com.practise.crm.framework.AppCommons@36bc55de]" started-at="2025-08-04T11:12:51 IST" name="Testcase1" finished-at="2025-08-04T11:12:51 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Testcase1 -->
+        <test-method is-config="true" signature="launchBrowserApplication(java.lang.String,java.lang.String)[pri:0, instance:com.practise.crm.framework.AppCommons@36bc55de]" started-at="2025-08-04T11:12:51 IST" name="launchBrowserApplication" finished-at="2025-08-04T11:12:51 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[www.msisurfaces.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowserApplication -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.practise.crm.framework.AppCommons@36bc55de]" started-at="2025-08-04T11:12:51 IST" name="closeBrowser" finished-at="2025-08-04T11:12:51 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method signature="Testcase1()[pri:2, instance:com.practise.crm.framework.AppCommons@36bc55de]" started-at="2025-08-04T11:12:51 IST" name="Testcase1" finished-at="2025-08-04T11:12:51 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Testcase1 -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.practise.crm.framework.AppCommons@36bc55de]" started-at="2025-08-04T11:12:51 IST" name="closeBrowser" finished-at="2025-08-04T11:12:51 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method signature="Testcase1()[pri:2, instance:com.practise.crm.framework.AppCommons@36bc55de]" started-at="2025-08-04T11:12:51 IST" name="Testcase1" finished-at="2025-08-04T11:12:51 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Testcase1 -->
+        <test-method is-config="true" signature="launchBrowserApplication(java.lang.String,java.lang.String)[pri:0, instance:com.practise.crm.framework.AppCommons@36bc55de]" started-at="2025-08-04T11:12:51 IST" name="launchBrowserApplication" finished-at="2025-08-04T11:12:51 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[www.msisurfaces.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowserApplication -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.practise.crm.framework.AppCommons@36bc55de]" started-at="2025-08-04T11:12:51 IST" name="closeBrowser" finished-at="2025-08-04T11:12:51 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method signature="Testcase1()[pri:2, instance:com.practise.crm.framework.AppCommons@36bc55de]" started-at="2025-08-04T11:12:51 IST" name="Testcase1" finished-at="2025-08-04T11:12:51 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Testcase1 -->
+        <test-method is-config="true" signature="launchBrowserApplication(java.lang.String,java.lang.String)[pri:0, instance:com.practise.crm.framework.AppCommons@36bc55de]" started-at="2025-08-04T11:12:51 IST" name="launchBrowserApplication" finished-at="2025-08-04T11:12:51 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[www.msisurfaces.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowserApplication -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.practise.crm.framework.AppCommons@36bc55de]" started-at="2025-08-04T11:12:51 IST" name="closeBrowser" finished-at="2025-08-04T11:12:51 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchBrowserApplication(java.lang.String,java.lang.String)[pri:0, instance:com.practise.crm.framework.AppCommons@36bc55de]" started-at="2025-08-04T11:12:51 IST" name="launchBrowserApplication" finished-at="2025-08-04T11:12:51 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[www.msisurfaces.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowserApplication -->
+        <test-method signature="Testcase1()[pri:2, instance:com.practise.crm.framework.AppCommons@36bc55de]" started-at="2025-08-04T11:12:51 IST" name="Testcase1" finished-at="2025-08-04T11:12:51 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Testcase1 -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.practise.crm.framework.AppCommons@36bc55de]" started-at="2025-08-04T11:12:51 IST" name="closeBrowser" finished-at="2025-08-04T11:12:51 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchBrowserApplication(java.lang.String,java.lang.String)[pri:0, instance:com.practise.crm.framework.AppCommons@36bc55de]" started-at="2025-08-04T11:12:51 IST" name="launchBrowserApplication" finished-at="2025-08-04T11:12:51 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[www.msisurfaces.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowserApplication -->
+        <test-method signature="Testcase1()[pri:2, instance:com.practise.crm.framework.AppCommons@36bc55de]" started-at="2025-08-04T11:12:51 IST" name="Testcase1" finished-at="2025-08-04T11:12:51 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Testcase1 -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.practise.crm.framework.AppCommons@36bc55de]" started-at="2025-08-04T11:12:51 IST" name="closeBrowser" finished-at="2025-08-04T11:12:51 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method signature="Testcase1()[pri:2, instance:com.practise.crm.framework.AppCommons@36bc55de]" started-at="2025-08-04T11:12:51 IST" name="Testcase1" finished-at="2025-08-04T11:12:51 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Testcase1 -->
+        <test-method is-config="true" signature="launchBrowserApplication(java.lang.String,java.lang.String)[pri:0, instance:com.practise.crm.framework.AppCommons@36bc55de]" started-at="2025-08-04T11:12:51 IST" name="launchBrowserApplication" finished-at="2025-08-04T11:12:51 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[www.msisurfaces.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowserApplication -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.practise.crm.framework.AppCommons@36bc55de]" started-at="2025-08-04T11:12:51 IST" name="closeBrowser" finished-at="2025-08-04T11:12:51 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="stopReporting()[pri:0, instance:com.practise.crm.framework.AppCommons@36bc55de]" started-at="2025-08-04T11:12:51 IST" name="stopReporting" finished-at="2025-08-04T11:12:51 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopReporting -->
+      </class> <!-- com.practise.crm.framework.AppCommons -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
